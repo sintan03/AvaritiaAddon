@@ -33,14 +33,14 @@
     },
     {
       "module_name": "@minecraft/server",
-      "version": "2.6.0"
-    },
-    {
-      "module_name": "@minecraft/server-ui",
-      "version": "2.0.0"
+      "version": "2.8.0"
     }
   ],
   "capabilities": [
     "script_eval"
-  ]
+  ],
+  "metadata": {
+    "authors": ["32ByteMemory"],
+    "product_type": "addon"
+  }
 }

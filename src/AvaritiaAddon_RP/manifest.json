@@ -24,5 +24,9 @@
       "uuid": "dd9eb43d-dc89-47ae-a417-b0476b909c79",
       "version": [1, 0, 0]
     }
-  ]
+  ],
+  "metadata": {
+    "authors": ["32ByteMemory"],
+    "product_type": "addon"
+  }
 }

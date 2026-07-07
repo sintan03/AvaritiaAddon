@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§r§o§l§fAvaritia Addon§r§f",
+    "description": "\"end game\"",
+    "uuid": "dd9eb43d-dc89-47ae-a417-b0476b909c79",
+    "version": [1, 0, 0],
+    "min_engine_version": [
+      1,
+      21,
+      101
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "5302acf2-0795-4bbe-be50-3e1bab0bf328",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "\"end game\"",
+      "type": "data",
+      "uuid": "84a7009c-2fe3-49f9-9774-935a27582913",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "34000cc5-3008-4f36-84f9-38086b364f8c",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.6.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}

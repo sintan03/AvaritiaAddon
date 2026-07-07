@@ -1,0 +1,39 @@
+{
+    "resource_pack_name": "§r§o§l§fAvaritia Addon§r§f",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "avaritiaaddon:infinity_sword_0": {
+            "textures": "textures/items/infinity_sword/infinity_sword_0"
+        },
+        "avaritiaaddon:infinity_sword_1": {
+            "textures": "textures/items/infinity_sword/infinity_sword_1"
+        },
+        "avaritiaaddon:infinity_sword_2": {
+            "textures": "textures/items/infinity_sword/infinity_sword_2"
+        },
+        "avaritiaaddon:infinity_sword_3": {
+            "textures": "textures/items/infinity_sword/infinity_sword_3"
+        },
+        "avaritiaaddon:infinity_sword_4": {
+            "textures": "textures/items/infinity_sword/infinity_sword_4"
+        },
+        "avaritiaaddon:infinity_sword_5": {
+            "textures": "textures/items/infinity_sword/infinity_sword_5"
+        },
+        "avaritiaaddon:infinity_sword_6": {
+            "textures": "textures/items/infinity_sword/infinity_sword_6"
+        },
+        "avaritiaaddon:infinity_sword_7": {
+            "textures": "textures/items/infinity_sword/infinity_sword_7"
+        },
+        "avaritiaaddon:infinity_sword_8": {
+            "textures": "textures/items/infinity_sword/infinity_sword_8"
+        },
+        "avaritiaaddon:infinity_sword_9": {
+            "textures": "textures/items/infinity_sword/infinity_sword_9"
+        },
+        "avaritiaaddon:infinity_sword_10": {
+            "textures": "textures/items/infinity_sword/infinity_sword_10"
+        }
+    }
+}

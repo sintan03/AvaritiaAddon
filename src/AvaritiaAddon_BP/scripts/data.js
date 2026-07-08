@@ -1,4 +1,4 @@
-/** @type { Record<String, { "ticks_per_frame": Number, "loop": "pingpong" | "cycle", flames: Number[] }> } */
+/** @type { Record<String, { "ticks_per_frame": Number, "loop": "pingpong" | "cycle", frames: Number[] }> } */
 export const animationData = {
     "avaritiaaddon:infinity_sword": {
         "ticks_per_frame": 2,

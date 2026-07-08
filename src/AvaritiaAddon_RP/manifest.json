@@ -3,7 +3,7 @@
   "header": {
     "name": "§r§o§l§fAvaritia Addon§r§f",
     "description": "\"end game\"",
-    "uuid": "34000cc5-3008-4f36-84f9-38086b364f8c",
+    "uuid": "148c7c12-980e-4de1-8713-41b997eaf996",
     "version": [1, 0, 0],
     "min_engine_version": [
       1,
@@ -15,13 +15,13 @@
     {
       "description": "\"end game\"",
       "type": "resources",
-      "uuid": "cb0d9d30-9ddc-404e-8452-7df03627cab1",
+      "uuid": "e5ace46a-4bf9-41bc-be8a-d46663bd3757",
       "version": [1, 0, 0]
     }
   ],
   "dependencies": [
     {
-      "uuid": "dd9eb43d-dc89-47ae-a417-b0476b909c79",
+      "uuid": "971e2aab-9f59-44b7-8f28-1585f2fac5fa",
       "version": [1, 0, 0]
     }
   ],

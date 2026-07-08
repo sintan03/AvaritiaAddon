@@ -3,7 +3,7 @@
   "header": {
     "name": "§r§o§l§fAvaritia Addon§r§f",
     "description": "\"end game\"",
-    "uuid": "dd9eb43d-dc89-47ae-a417-b0476b909c79",
+    "uuid": "971e2aab-9f59-44b7-8f28-1585f2fac5fa",
     "version": [1, 0, 0],
     "min_engine_version": [
       1,
@@ -15,20 +15,20 @@
     {
       "type": "script",
       "language": "javascript",
-      "uuid": "5302acf2-0795-4bbe-be50-3e1bab0bf328",
+      "uuid": "e48cc87b-e5dd-4fd3-bfc2-82a0b1dca100",
       "entry": "scripts/main.js",
       "version": [1, 0, 0]
     },
     {
       "description": "\"end game\"",
       "type": "data",
-      "uuid": "84a7009c-2fe3-49f9-9774-935a27582913",
+      "uuid": "d4e53b1b-390a-4477-a1ca-09c5d81979b6",
       "version": [1, 0, 0]
     }
   ],
   "dependencies": [
     {
-      "uuid": "34000cc5-3008-4f36-84f9-38086b364f8c",
+      "uuid": "148c7c12-980e-4de1-8713-41b997eaf996",
       "version": [1, 0, 0]
     },
     {

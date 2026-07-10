@@ -1,6 +1,6 @@
 // @ts-check
 
-import { world, system, EntityComponentTypes, ItemStack, EntityInventoryComponent } from "@minecraft/server";
+import { world, system, EntityComponentTypes, ItemStack, EntityInventoryComponent, PotionEffectType } from "@minecraft/server";
 
 import { itemAnimationData, itemStringAnimationData, loreSet } from "./data.js";
 
@@ -17,10 +17,19 @@ function setAnimationItem(oldItemStack, itemStack, foundAnimationKey, currentTic
 
     const expectedItemStringAnimationData = itemStringAnimationData[foundAnimationKey];
 
+    const itemNameTag = itemStack.nameTag;
+    let loreIndex = -1;
+
     if (expectedItemStringAnimationData) {
 
         if (expectedItemStringAnimationData.name_data) {
-            itemStack.nameTag = expectedItemStringAnimationData.name_data.data[expectedItemStringAnimationData.name_data.frames[Math.floor(currentTick / expectedItemStringAnimationData.name_data.ticks_per_frame) % expectedItemStringAnimationData.name_data.frames.length]];
+
+            if (expectedItemStringAnimationData.name_data.ticks_per_frame <= 0) {
+                if (itemStack.nameTag === undefined) itemStack.nameTag = expectedItemStringAnimationData.name_data.data[expectedItemStringAnimationData.name_data.frames[0]];
+            } else {
+                itemStack.nameTag = expectedItemStringAnimationData.name_data.data[expectedItemStringAnimationData.name_data.frames[Math.floor(currentTick / expectedItemStringAnimationData.name_data.ticks_per_frame) % expectedItemStringAnimationData.name_data.frames.length]];
+            };
+
         };
 
         if (expectedItemStringAnimationData.lore_data) {
@@ -29,21 +38,36 @@ function setAnimationItem(oldItemStack, itemStack, foundAnimationKey, currentTic
             const rawLoreStrings = rawLore.map(v => JSON.stringify(v));
 
             if (!loreSet.has(foundAnimationKey)) return;
-            const loreIndex = rawLoreStrings.findIndex(v => loreSet.get(foundAnimationKey)?.has(v));
+            loreIndex = rawLoreStrings.findIndex(v => loreSet.get(foundAnimationKey)?.has(v));
 
-            if (loreIndex === -1) {
-                rawLore.push(expectedItemStringAnimationData.lore_data.data[expectedItemStringAnimationData.lore_data.frames[Math.floor(currentTick / expectedItemStringAnimationData.lore_data.ticks_per_frame) % expectedItemStringAnimationData.lore_data.frames.length]]);
+            if (expectedItemStringAnimationData.lore_data.ticks_per_frame <= 0) {
+
+                if (loreIndex === -1) {
+
+                    rawLore.push(expectedItemStringAnimationData.lore_data.data[expectedItemStringAnimationData.lore_data.frames[0]]);
+                    loreIndex = 0;
+                    itemStack.setLore(rawLore);
+
+                };
+
             } else {
-                rawLore[loreIndex] = expectedItemStringAnimationData.lore_data.data[expectedItemStringAnimationData.lore_data.frames[Math.floor(currentTick / expectedItemStringAnimationData.lore_data.ticks_per_frame) % expectedItemStringAnimationData.lore_data.frames.length]];
-            };
 
-            itemStack.setLore(rawLore);
+                if (loreIndex === -1) {
+                    rawLore.push(expectedItemStringAnimationData.lore_data.data[expectedItemStringAnimationData.lore_data.frames[Math.floor(currentTick / expectedItemStringAnimationData.lore_data.ticks_per_frame) % expectedItemStringAnimationData.lore_data.frames.length]]);
+                } else {
+                    rawLore[loreIndex] = expectedItemStringAnimationData.lore_data.data[expectedItemStringAnimationData.lore_data.frames[Math.floor(currentTick / expectedItemStringAnimationData.lore_data.ticks_per_frame) % expectedItemStringAnimationData.lore_data.frames.length]];
+                };
+
+                itemStack.setLore(rawLore);
+
+            };
 
         };
 
     };
 
-    inventoryComponent.container.setItem(slotIndex, itemStack);
+    if (itemNameTag === undefined || loreIndex !== -1) inventoryComponent.container.setItem(slotIndex, itemStack);
+
 };
 
 system.runInterval(() => {

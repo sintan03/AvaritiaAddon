@@ -7,7 +7,7 @@ Minecraft Bedrock Edition向けのAvaritia再現アドオンです。
 This project is based in part on Avaritia.
 
 Original project:
-https://github.com/Morpheus1101/Avaritia
+https://github.com/AquaThree/AvaritiaNeo
 
 Avaritia is licensed under the MIT License.
 

@@ -1,9 +1,14 @@
 /** @type { Record<String, { "ticks_per_frame": Number, "loop": "pingpong" | "cycle", frames: Number[] }> } */
 export const itemAnimationData = {
     "avaritiaaddon:infinity_sword": {
-        "ticks_per_frame": 2,
+        "ticks_per_frame": 1,
         "loop": "pingpong",
-        "frames": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        "frames": [0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 6, 7, 8, 9, 10]
+    },
+    "avaritiaaddon:infinity_pickaxe": {
+        "ticks_per_frame": 1,
+        "loop": "pingpong",
+        "frames": [0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 4, 4, 5, 6, 7, 8]
     }
 };
 
@@ -28,6 +33,22 @@ export const itemStringAnimationData = {
                 { "rawtext": [{ "translate": "lore.avaritiaaddon:infinity_sword_4" }] },
                 { "rawtext": [{ "translate": "lore.avaritiaaddon:infinity_sword_5" }] },
                 { "rawtext": [{ "translate": "lore.avaritiaaddon:infinity_sword_6" }] }
+            ]
+        }
+    },
+    "avaritiaaddon:infinity_pickaxe": {
+        "name_data": {
+            "ticks_per_frame": 0,
+            "frames": [0],
+            "data": [
+                "§r§cWorld Breaker§r§f"
+            ]
+        },
+        "lore_data": {
+            "ticks_per_frame": 0,
+            "frames": [0],
+            "data": [
+                { "rawtext": [{ "translate": "lore.avaritiaaddon:infinity_pickaxe_0" }] }
             ]
         }
     }

@@ -1,6 +1,6 @@
 // @ts-check
 
-import { world, system, EntityComponentTypes, ItemStack, EntityInventoryComponent, EntitySwingSource, InputButton, ButtonState, Player } from "@minecraft/server";
+import { world, system, EntityComponentTypes, ItemStack, EntityInventoryComponent, EntitySwingSource, InputButton, ButtonState, Player, EquipmentSlot } from "@minecraft/server";
 
 import { itemAnimationData, itemStringAnimationData, loreSet } from "./data.js";
 
@@ -48,10 +48,10 @@ function setAnimationItem(oldItemStack, itemStack, foundAnimationKey, currentTic
 
         if (nameData) {
 
-            if (nameData.ticks_per_frame <= 0) {
+            if (nameData.frametime <= 0) {
                 if (itemStack.nameTag === undefined) itemStack.nameTag = nameData.data[nameData.frames[0]];
             } else {
-                itemStack.nameTag = nameData.data[nameData.frames[Math.floor(currentTick / nameData.ticks_per_frame) % nameData.frames.length]];
+                itemStack.nameTag = nameData.data[nameData.frames[Math.floor(currentTick / nameData.frametime) % nameData.frames.length]];
             };
 
         };
@@ -64,7 +64,7 @@ function setAnimationItem(oldItemStack, itemStack, foundAnimationKey, currentTic
             if (!loreSet.has(foundAnimationKey)) return;
             const loreIndex = rawLoreStrings.findIndex(v => loreSet.get(foundAnimationKey)?.has(v));
 
-            if (loreData.ticks_per_frame <= 0) {
+            if (loreData.frametime <= 0) {
 
                 if (loreIndex === -1) {
                     rawLore.push(loreData.data[loreData.frames[0]]);
@@ -73,9 +73,9 @@ function setAnimationItem(oldItemStack, itemStack, foundAnimationKey, currentTic
             } else {
 
                 if (loreIndex === -1) {
-                    rawLore.push(loreData.data[loreData.frames[Math.floor(currentTick / loreData.ticks_per_frame) % loreData.frames.length]]);
+                    rawLore.push(loreData.data[loreData.frames[Math.floor(currentTick / loreData.frametime) % loreData.frames.length]]);
                 } else {
-                    rawLore[loreIndex] = loreData.data[loreData.frames[Math.floor(currentTick / loreData.ticks_per_frame) % loreData.frames.length]];
+                    rawLore[loreIndex] = loreData.data[loreData.frames[Math.floor(currentTick / loreData.frametime) % loreData.frames.length]];
                 };
 
             };
@@ -166,6 +166,10 @@ function fly(player) {
 
 world.afterEvents.playerButtonInput.subscribe(ev => {
     const { player, button, newButtonState } = ev;
+    const equippableComponent = player.getComponent(EntityComponentTypes.Equippable);
+    if (!equippableComponent) return;
+    const itemChest = equippableComponent.getEquipment(EquipmentSlot.Chest);
+    if (!itemChest || itemChest.typeId !== `avaritiaaddon:infinity_chestplate`) return;
     if (button === InputButton.Jump) {
         if (newButtonState === ButtonState.Pressed) {
             player.addTag(`avaritiaaddon_jumping`);
@@ -230,7 +234,7 @@ system.runInterval(() => {
             const expectedItemAnimationData = itemAnimationData[foundAnimationKey];
             const loopPingpong = expectedItemAnimationData.loop === `pingpong`;
             const totalTick = loopPingpong ? expectedItemAnimationData.frames.length * 2 - 2 : expectedItemAnimationData.frames.length;
-            const currentTickScalar = Math.floor(currentTick / expectedItemAnimationData.ticks_per_frame);
+            const currentTickScalar = Math.floor(currentTick / expectedItemAnimationData.frametime);
 
             const newItemStackId = `${foundAnimationKey}_${expectedItemAnimationData.frames[loopPingpong ? ((currentTickScalar % totalTick - expectedItemAnimationData.frames.length) >= 0 ? expectedItemAnimationData.frames.length - (currentTickScalar % totalTick - expectedItemAnimationData.frames.length + 2) : currentTickScalar % totalTick) : currentTickScalar % totalTick]}`;
             if (newItemStackId === itemId) {

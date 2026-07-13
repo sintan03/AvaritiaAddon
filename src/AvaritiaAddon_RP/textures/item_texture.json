@@ -29,12 +29,6 @@
         "avaritiaaddon:infinity_sword_8": {
             "textures": "textures/items/tools/infinity_sword/infinity_sword_8"
         },
-        "avaritiaaddon:infinity_sword_9": {
-            "textures": "textures/items/tools/infinity_sword/infinity_sword_9"
-        },
-        "avaritiaaddon:infinity_sword_10": {
-            "textures": "textures/items/tools/infinity_sword/infinity_sword_10"
-        },
 
         "avaritiaaddon:infinity_pickaxe_0": {
             "textures": "textures/items/tools/infinity_pickaxe/infinity_pickaxe_0"
@@ -62,6 +56,133 @@
         },
         "avaritiaaddon:infinity_pickaxe_8": {
             "textures": "textures/items/tools/infinity_pickaxe/infinity_pickaxe_8"
+        },
+
+        "avaritiaaddon:infinity_singularity_0": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_0"
+        },
+        "avaritiaaddon:infinity_singularity_1": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_1"
+        },
+        "avaritiaaddon:infinity_singularity_2": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_2"
+        },
+        "avaritiaaddon:infinity_singularity_3": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_3"
+        },
+        "avaritiaaddon:infinity_singularity_4": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_4"
+        },
+        "avaritiaaddon:infinity_singularity_5": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_5"
+        },
+        "avaritiaaddon:infinity_singularity_6": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_6"
+        },
+        "avaritiaaddon:infinity_singularity_7": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_7"
+        },
+        "avaritiaaddon:infinity_singularity_8": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_8"
+        },
+        "avaritiaaddon:infinity_singularity_9": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_9"
+        },
+        "avaritiaaddon:infinity_singularity_10": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_10"
+        },
+        "avaritiaaddon:infinity_singularity_11": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_11"
+        },
+        "avaritiaaddon:infinity_singularity_12": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_12"
+        },
+        "avaritiaaddon:infinity_singularity_13": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_13"
+        },
+        "avaritiaaddon:infinity_singularity_14": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_14"
+        },
+        "avaritiaaddon:infinity_singularity_15": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_15"
+        },
+        "avaritiaaddon:infinity_singularity_16": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_16"
+        },
+        "avaritiaaddon:infinity_singularity_17": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_17"
+        },
+        "avaritiaaddon:infinity_singularity_18": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_18"
+        },
+        "avaritiaaddon:infinity_singularity_19": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_19"
+        },
+        "avaritiaaddon:infinity_singularity_20": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_20"
+        },
+        "avaritiaaddon:infinity_singularity_21": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_21"
+        },
+        "avaritiaaddon:infinity_singularity_22": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_22"
+        },
+        "avaritiaaddon:infinity_singularity_23": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_23"
+        },
+        "avaritiaaddon:infinity_singularity_24": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_24"
+        },
+        "avaritiaaddon:infinity_singularity_25": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_25"
+        },
+        "avaritiaaddon:infinity_singularity_26": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_26"
+        },
+        "avaritiaaddon:infinity_singularity_27": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_27"
+        },
+        "avaritiaaddon:infinity_singularity_28": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_28"
+        },
+        "avaritiaaddon:infinity_singularity_29": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_29"
+        },
+        "avaritiaaddon:infinity_singularity_30": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_30"
+        },
+        "avaritiaaddon:infinity_singularity_31": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_31"
+        },
+        "avaritiaaddon:infinity_singularity_32": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_32"
+        },
+        "avaritiaaddon:infinity_singularity_33": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_33"
+        },
+        "avaritiaaddon:infinity_singularity_34": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_34"
+        },
+        "avaritiaaddon:infinity_singularity_35": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_35"
+        },
+        "avaritiaaddon:infinity_singularity_36": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_36"
+        },
+        "avaritiaaddon:infinity_singularity_37": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_37"
+        },
+        "avaritiaaddon:infinity_singularity_38": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_38"
+        },
+        "avaritiaaddon:infinity_singularity_39": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_39"
+        },
+        "avaritiaaddon:infinity_singularity_40": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_40"
+        },
+        "avaritiaaddon:infinity_singularity_41": {
+            "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_41"
         }
     }
 }

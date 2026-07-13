@@ -1,4 +1,4 @@
-item.avaritiaaddon:infinity_sword_0=§r§cSword of the Cosmos§r§f§r§f\n§r§f§r§f\n§9+§cI§gn§ef§ai§bn§9i§dt§cy§9 Attack Damage§f\n§o§9Avaritia Addon§r§f
+item.avaritiaaddon:infinity_sword_0=§r§cSword of the Cosmos§r§f§r§f\n§r§f§r§f\n§9+§cI§gn§ef§ai§bn§9i§dt§cy§9 Attack Damage\n§o§9Avaritia Addon§r§f
 item.avaritiaaddon:infinity_sword_1=§r§cSword of the Cosmos§r§f
 item.avaritiaaddon:infinity_sword_2=§r§cSword of the Cosmos§r§f
 item.avaritiaaddon:infinity_sword_3=§r§cSword of the Cosmos§r§f
@@ -10,17 +10,17 @@ item.avaritiaaddon:infinity_sword_8=§r§cSword of the Cosmos§r§f
 item.avaritiaaddon:infinity_sword_9=§r§cSword of the Cosmos§r§f
 item.avaritiaaddon:infinity_sword_10=§r§cSword of the Cosmos§r§f
 
-lore.avaritiaaddon:infinity_sword_0=§r§f\n§9+§cI§gn§ef§ai§bn§9i§dt§cy§9 Attack Damage§f\n§o§9Avaritia Addon§r§f
-lore.avaritiaaddon:infinity_sword_1=§r§f\n§9+§dI§cn§gf§ei§an§bi§9t§dy§9 Attack Damage§f\n§o§9Avaritia Addon§r§f
-lore.avaritiaaddon:infinity_sword_2=§r§f\n§9+§9I§dn§cf§gi§en§ai§bt§9y§9 Attack Damage§f\n§o§9Avaritia Addon§r§f
-lore.avaritiaaddon:infinity_sword_3=§r§f\n§9+§bI§9n§df§ci§gn§ei§at§by§9 Attack Damage§f\n§o§9Avaritia Addon§r§f
-lore.avaritiaaddon:infinity_sword_4=§r§f\n§9+§aI§bn§9f§di§cn§gi§et§ay§9 Attack Damage§f\n§o§9Avaritia Addon§r§f
-lore.avaritiaaddon:infinity_sword_5=§r§f\n§9+§eI§an§bf§9i§dn§ci§gt§ey§9 Attack Damage§f\n§o§9Avaritia Addon§r§f
-lore.avaritiaaddon:infinity_sword_6=§r§f\n§9+§gI§en§af§bi§9n§di§ct§gy§9 Attack Damage§f\n§o§9Avaritia Addon§r§f
+lore.avaritiaaddon:infinity_sword_0=§r§f\n§9+§cI§gn§ef§ai§bn§9i§dt§cy§9 Attack Damage\n§o§9Avaritia Addon§r§f
+lore.avaritiaaddon:infinity_sword_1=§r§f\n§9+§dI§cn§gf§ei§an§bi§9t§dy§9 Attack Damage\n§o§9Avaritia Addon§r§f
+lore.avaritiaaddon:infinity_sword_2=§r§f\n§9+§9I§dn§cf§gi§en§ai§bt§9y§9 Attack Damage\n§o§9Avaritia Addon§r§f
+lore.avaritiaaddon:infinity_sword_3=§r§f\n§9+§bI§9n§df§ci§gn§ei§at§by§9 Attack Damage\n§o§9Avaritia Addon§r§f
+lore.avaritiaaddon:infinity_sword_4=§r§f\n§9+§aI§bn§9f§di§cn§gi§et§ay§9 Attack Damage\n§o§9Avaritia Addon§r§f
+lore.avaritiaaddon:infinity_sword_5=§r§f\n§9+§eI§an§bf§9i§dn§ci§gt§ey§9 Attack Damage\n§o§9Avaritia Addon§r§f
+lore.avaritiaaddon:infinity_sword_6=§r§f\n§9+§gI§en§af§bi§9n§di§ct§gy§9 Attack Damage\n§o§9Avaritia Addon§r§f
 
 
 
-item.avaritiaaddon:infinity_pickaxe_0=§r§cWorld Breaker§r§f§r§f\n§r§7Fortune X§r§f\n§r§f\n§9+15 Attack Damage§f\n§o§9Avaritia Addon§r§f
+item.avaritiaaddon:infinity_pickaxe_0=§r§cWorld Breaker§r§f§r§f\n§r§f\n§9+15 Attack Damage\n§o§9Avaritia Addon§r§f
 item.avaritiaaddon:infinity_pickaxe_1=§r§cWorld Breaker§r§f
 item.avaritiaaddon:infinity_pickaxe_2=§r§cWorld Breaker§r§f
 item.avaritiaaddon:infinity_pickaxe_3=§r§cWorld Breaker§r§f
@@ -30,4 +30,51 @@ item.avaritiaaddon:infinity_pickaxe_6=§r§cWorld Breaker§r§f
 item.avaritiaaddon:infinity_pickaxe_7=§r§cWorld Breaker§r§f
 item.avaritiaaddon:infinity_pickaxe_8=§r§cWorld Breaker§r§f
 
-lore.avaritiaaddon:infinity_pickaxe_0=§r§7Fortune X§r§f\n§r§f\n§9+15 Attack Damage§f\n§o§9Avaritia Addon§r§f
+lore.avaritiaaddon:infinity_pickaxe_0=§r§f\n§9+15 Attack Damage\n§o§9Avaritia Addon§r§f
+
+
+
+item.avaritiaaddon:infinity_singularity_0=§r§dInfinity Singularity§r§f§r§f\n§r§o§8A creation that fuses countless singularities.\n§r§o§9Avaritia Addon§r§f
+item.avaritiaaddon:infinity_singularity_1=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_2=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_3=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_4=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_5=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_6=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_7=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_8=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_9=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_10=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_11=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_12=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_13=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_14=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_15=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_16=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_17=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_18=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_19=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_20=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_21=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_22=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_23=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_24=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_25=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_26=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_27=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_28=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_29=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_30=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_31=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_32=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_33=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_34=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_35=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_36=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_37=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_38=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_39=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_40=§r§dInfinity Singularity§r§f
+item.avaritiaaddon:infinity_singularity_41=§r§dInfinity Singularity§r§f
+
+lore.avaritiaaddon:infinity_singularity_0=§r§o§8A creation that fuses countless singularities.\n§r§o§9Avaritia Addon§r§f

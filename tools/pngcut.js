@@ -1,10 +1,12 @@
 const sharp = require("sharp");
 const path = require("path");
 
+const p = `gold_singularity`;
+
 // ===== 設定 =====
-const inputFile = "../src/AvaritiaAddon_RP/textures/items/tools/infinity_axe/infinity_axe.png";
-const outputName = "infinity_axe";
-    // =================
+const inputFile = `../src/AvaritiaAddon_RP/textures/items/singularity/${p}/${p}.png`;
+const outputName = `${p}`;
+// =================
 
     (async () => {
         const image = sharp(inputFile);

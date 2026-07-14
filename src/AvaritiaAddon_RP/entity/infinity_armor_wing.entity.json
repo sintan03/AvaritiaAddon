@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "avaritiaaddon:infinity_armor_wing",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/infinity_armor_wing"
+			},
+			"geometry": {
+				"default": "geometry.infinity_armor_wing"
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}

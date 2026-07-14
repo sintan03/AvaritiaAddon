@@ -1,10 +1,14 @@
 const sharp = require("sharp");
 const path = require("path");
 
-const p = `gold_singularity`;
+const p = `infinity_leggings`;
 
 // ===== 設定 =====
-const inputFile = `../src/AvaritiaAddon_RP/textures/items/singularity/${p}/${p}.png`;
+/*
+const inputFile = `../src/AvaritiaAddon_RP/textures/items/armor/infinity_bow/${p}.png`;
+/**/
+const inputFile = `../src/AvaritiaAddon_RP/textures/items/armor/${p}/${p}.png`;
+/**/
 const outputName = `${p}`;
 // =================
 

@@ -58,6 +58,247 @@
             "textures": "textures/items/tools/infinity_pickaxe/infinity_pickaxe_8"
         },
 
+	"avaritiaaddon:diamond_lattice": {
+	    "textures": "textures/items/resourse/diamond_lattice/diamond_lattice"
+	},
+
+	"avaritiaaddon:crystal_matrix_ingot": {
+	    "textures": "textures/items/resourse/crystal_matrix_ingot/crystal_matrix_ingot"
+	},
+
+	"avaritiaaddon:neutron_pile": {
+	    "textures": "textures/items/resourse/neutron_pile/neutron_pile"
+	},
+
+	"avaritiaaddon:neutron_nugget": {
+	    "textures": "textures/items/resourse/neutron_nugget/neutron_nugget"
+	},
+
+	"avaritiaaddon:neutron_ingot_0": {
+	    "textures": "textures/items/resourse/neutron_ingot/neutron_ingot_0"
+	},
+	"avaritiaaddon:neutron_ingot_1": {
+	    "textures": "textures/items/resourse/neutron_ingot/neutron_ingot_1"
+	},
+	"avaritiaaddon:neutron_ingot_2": {
+	    "textures": "textures/items/resourse/neutron_ingot/neutron_ingot_2"
+	},
+	
+	"avaritiaaddon:record_fragment": {
+	    "textures": "textures/items/resourse/record_fragment/record_fragment"
+	},
+	
+	"avaritiaaddon:endest_pearl_0": {
+	    "textures": "textures/items/resourse/endest_pearl/endest_pearl_0"
+	},
+	"avaritiaaddon:endest_pearl_1": {
+	    "textures": "textures/items/resourse/endest_pearl/endest_pearl_1"
+	},
+	"avaritiaaddon:endest_pearl_2": {
+	    "textures": "textures/items/resourse/endest_pearl/endest_pearl_2"
+	},
+	"avaritiaaddon:endest_pearl_3": {
+	    "textures": "textures/items/resourse/endest_pearl/endest_pearl_3"
+	},
+	"avaritiaaddon:endest_pearl_4": {
+	    "textures": "textures/items/resourse/endest_pearl/endest_pearl_4"
+	},
+	
+	"avaritiaaddon:infinity_catalyst_0": {
+	    "textures": "textures/items/resourse/infinity_catalyst/infinity_catalyst_0"
+	},
+	"avaritiaaddon:infinity_catalyst_1": {
+	    "textures": "textures/items/resourse/infinity_catalyst/infinity_catalyst_1"
+	},
+	"avaritiaaddon:infinity_catalyst_2": {
+	    "textures": "textures/items/resourse/infinity_catalyst/infinity_catalyst_2"
+	},
+	"avaritiaaddon:infinity_catalyst_3": {
+	    "textures": "textures/items/resourse/infinity_catalyst/infinity_catalyst_3"
+	},
+	"avaritiaaddon:infinity_catalyst_4": {
+	    "textures": "textures/items/resourse/infinity_catalyst/infinity_catalyst_4"
+	},
+	"avaritiaaddon:infinity_catalyst_5": {
+	    "textures": "textures/items/resourse/infinity_catalyst/infinity_catalyst_5"
+	},
+	"avaritiaaddon:infinity_catalyst_6": {
+	    "textures": "textures/items/resourse/infinity_catalyst/infinity_catalyst_6"
+	},
+	"avaritiaaddon:infinity_catalyst_7": {
+	    "textures": "textures/items/resourse/infinity_catalyst/infinity_catalyst_7"
+	},
+	"avaritiaaddon:infinity_catalyst_8": {
+	    "textures": "textures/items/resourse/infinity_catalyst/infinity_catalyst_8"
+	},
+	
+	"avaritiaaddon:infinity_ingot_0": {
+	    "textures": "textures/items/resourse/infinity_ingot/infinity_ingot_0"
+	},
+	"avaritiaaddon:infinity_ingot_1": {
+	    "textures": "textures/items/resourse/infinity_ingot/infinity_ingot_1"
+	},
+	"avaritiaaddon:infinity_ingot_2": {
+	    "textures": "textures/items/resourse/infinity_ingot/infinity_ingot_2"
+	},
+	"avaritiaaddon:infinity_ingot_3": {
+	    "textures": "textures/items/resourse/infinity_ingot/infinity_ingot_3"
+	},
+	"avaritiaaddon:infinity_ingot_4": {
+	    "textures": "textures/items/resourse/infinity_ingot/infinity_ingot_4"
+	},
+	"avaritiaaddon:infinity_ingot_5": {
+	    "textures": "textures/items/resourse/infinity_ingot/infinity_ingot_5"
+	},
+	"avaritiaaddon:infinity_ingot_6": {
+	    "textures": "textures/items/resourse/infinity_ingot/infinity_ingot_6"
+	},
+	"avaritiaaddon:infinity_ingot_7": {
+	    "textures": "textures/items/resourse/infinity_ingot/infinity_ingot_7"
+	},
+	"avaritiaaddon:infinity_ingot_8": {
+	    "textures": "textures/items/resourse/infinity_ingot/infinity_ingot_8"
+	},
+	
+	"avaritiaaddon:matter_cluster": {
+	    "textures": "textures/items/resourse/matter_cluster/matter_cluster"
+	},
+	"avaritiaaddon:matter_cluster_empty": {
+	    "textures": "textures/items/resourse/matter_cluster/matter_cluster_empty"
+	},
+	"avaritiaaddon:matter_cluster_full": {
+	    "textures": "textures/items/resourse/matter_cluster/matter_cluster_full"
+	},
+	
+	"avaritiaaddon:cosmic_meatballs_0": {
+	    "textures": "textures/items/resourse/cosmic_meatballs/cosmic_meatballs_0"
+	},
+	"avaritiaaddon:cosmic_meatballs_1": {
+	    "textures": "textures/items/resourse/cosmic_meatballs/cosmic_meatballs_1"
+	},
+	"avaritiaaddon:cosmic_meatballs_2": {
+	    "textures": "textures/items/resourse/cosmic_meatballs/cosmic_meatballs_2"
+	},
+	"avaritiaaddon:cosmic_meatballs_3": {
+	    "textures": "textures/items/resourse/cosmic_meatballs/cosmic_meatballs_3"
+	},
+	"avaritiaaddon:cosmic_meatballs_4": {
+	    "textures": "textures/items/resourse/cosmic_meatballs/cosmic_meatballs_4"
+	},
+	"avaritiaaddon:cosmic_meatballs_5": {
+	    "textures": "textures/items/resourse/cosmic_meatballs/cosmic_meatballs_5"
+	},
+	"avaritiaaddon:cosmic_meatballs_6": {
+	    "textures": "textures/items/resourse/cosmic_meatballs/cosmic_meatballs_6"
+	},
+	"avaritiaaddon:cosmic_meatballs_7": {
+	    "textures": "textures/items/resourse/cosmic_meatballs/cosmic_meatballs_7"
+	},
+	
+	"avaritiaaddon:ultimate_stew_0": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_0"
+	},
+	"avaritiaaddon:ultimate_stew_1": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_1"
+	},
+	"avaritiaaddon:ultimate_stew_2": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_2"
+	},
+	"avaritiaaddon:ultimate_stew_3": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_3"
+	},
+	"avaritiaaddon:ultimate_stew_4": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_4"
+	},
+	"avaritiaaddon:ultimate_stew_5": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_5"
+	},
+	"avaritiaaddon:ultimate_stew_6": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_6"
+	},
+	"avaritiaaddon:ultimate_stew_7": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_7"
+	},
+	"avaritiaaddon:ultimate_stew_8": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_8"
+	},
+	"avaritiaaddon:ultimate_stew_9": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_9"
+	},
+	"avaritiaaddon:ultimate_stew_10": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_10"
+	},
+	"avaritiaaddon:ultimate_stew_11": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_11"
+	},
+	"avaritiaaddon:ultimate_stew_12": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_12"
+	},
+	"avaritiaaddon:ultimate_stew_13": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_13"
+	},
+	"avaritiaaddon:ultimate_stew_14": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_14"
+	},
+	"avaritiaaddon:ultimate_stew_15": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_15"
+	},
+	"avaritiaaddon:ultimate_stew_16": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_16"
+	},
+	"avaritiaaddon:ultimate_stew_17": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_17"
+	},
+	"avaritiaaddon:ultimate_stew_18": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_18"
+	},
+	"avaritiaaddon:ultimate_stew_19": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_19"
+	},
+	"avaritiaaddon:ultimate_stew_20": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_20"
+	},
+	"avaritiaaddon:ultimate_stew_21": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_21"
+	},
+	"avaritiaaddon:ultimate_stew_22": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_22"
+	},
+	"avaritiaaddon:ultimate_stew_23": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_23"
+	},
+	"avaritiaaddon:ultimate_stew_24": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_24"
+	},
+	"avaritiaaddon:ultimate_stew_25": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_25"
+	},
+	"avaritiaaddon:ultimate_stew_26": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_26"
+	},
+	"avaritiaaddon:ultimate_stew_27": {
+	    "textures": "textures/items/resourse/ultimate_stew/ultimate_stew_27"
+	},
+
+	"avaritiaaddon:amethyst_singularity_0": {
+	    "textures": "textures/items/resourse/amethyst_singularity/amethyst_singularity_0"
+	},
+	"avaritiaaddon:amethyst_singularity_1": {
+	    "textures": "textures/items/resourse/amethyst_singularity/amethyst_singularity_1"
+	},
+	"avaritiaaddon:amethyst_singularity_2": {
+	    "textures": "textures/items/resourse/amethyst_singularity/amethyst_singularity_2"
+	},
+	"avaritiaaddon:amethyst_singularity_3": {
+	    "textures": "textures/items/resourse/amethyst_singularity/amethyst_singularity_3"
+	},
+	"avaritiaaddon:amethyst_singularity_4": {
+	    "textures": "textures/items/resourse/amethyst_singularity/amethyst_singularity_4"
+	},
+	"avaritiaaddon:amethyst_singularity_5": {
+	    "textures": "textures/items/resourse/amethyst_singularity/amethyst_singularity_5"
+	},
+
         "avaritiaaddon:infinity_singularity_0": {
             "textures": "textures/items/singularity/infinity_singularity/infinity_singularity_0"
         },
